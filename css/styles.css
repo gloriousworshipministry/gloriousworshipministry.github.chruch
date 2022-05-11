@@ -1,0 +1,704 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+ header, footer, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+body {
+	line-height: 1;
+}
+
+
+
+/* 
+    ===============================
+            Home Page
+    ===============================
+*/
+
+body {
+    margin: .5%;
+    padding: .5%;
+    font-family: "sans-serif";
+    font-size: 1.1em;
+    height: auto;
+}
+
+/* Header */
+
+header, footer {
+    background-color: #e6b412;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    height: 10%;
+}
+
+.logo {
+    width: 7%;
+    display: inline-flex;
+    margin-top: 1%;
+    margin-left: 1.2%;
+}
+
+
+/* Navigation */
+
+.pages {
+    display: inline-block;
+    width: 88%;
+    vertical-align: top;
+    margin-top: 3%;
+}
+
+nav a {
+    box-sizing: border-box;
+    border: 1px solid #888eee;
+    color: #ffff;
+    background-color: #050727;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    padding: 1%;
+    width: 15%;
+    font-weight: bold;
+}
+
+.active {
+    color: #050727;
+    background-color: #fff;
+}
+
+/* Typography */
+
+h1 {
+    font-family: serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #e6b412;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.background p {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e6b412;
+    text-align: center;
+}
+
+
+footer {
+    font-size: .9em;
+    text-align: center;
+    clear: both;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* Layout */
+
+.row {
+    width: 100%;
+}
+
+.row ul {
+    list-style-type: disc;
+    margin-bottom: 3%;
+}
+
+.mission, .vision,
+.beliefs {
+    width: 25%;
+    float: left;
+    display: inline-block;
+    height: auto;
+    margin-left: 7%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.left, .middle,
+ .right {
+    width: 50%;
+    height: auto;
+    margin-left: 18%;
+    margin-bottom: 2%;
+}
+
+/* Main */
+
+iframe {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    padding-bottom: .5%;
+    clear: both;
+}
+
+.background {
+    width: 100%;
+    height: 60vh;
+    background-color: #7e0c65;
+    background-image: url(../images/background.png);
+    background-size: cover;
+}
+
+
+/*
+    =======================================
+                Ministries Page
+    =======================================
+*/
+
+/* Layout */
+
+.column {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.column figure {
+    width: 47%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.column img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-family: serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e6b412;
+    border: 1px solid #060b4e;
+    background-color: #060b4e;
+}
+
+/* Typography */
+
+.intro {
+    font-family: serif;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    width: 50%;
+    text-align: center;
+    color: #060b4e;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+/* 
+    ==================================
+                Events Page
+    ==================================
+*/
+
+table {
+    border-collapse: separate;
+    background-color: #e6b412;
+    color: #060b4e;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: inline-block;
+    margin-bottom: 1%;
+    margin-left: 18%;
+    border-spacing: 4px;
+}
+
+th,
+td {
+    border: 1px solid #060b4e;
+    padding: 1.5%;
+}
+
+
+@media all and (min-width:320px) {
+    /* 
+    ===============================
+            Home Page
+    ===============================
+*/
+
+body {
+    margin: .5%;
+    padding: .5%;
+    font-family: "sans-serif";
+    font-size: 1.1em;
+    height: auto;
+}
+
+/* Header */
+
+header, footer {
+    background-color: #e6b412;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    height: 10%;
+}
+
+.logo {
+    display: none;
+}
+
+
+/* Navigation */
+
+.pages {
+    width: 88%;
+    margin-top: 3%;
+}
+
+nav a {
+    box-sizing: border-box;
+    border: 1px solid #888eee;
+    color: #ffff;
+    background-color: #050727;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    padding: 1%;
+    width: 83%;
+    font-weight: bold;
+}
+
+.active {
+    color: #050727;
+    background-color: #fff;
+}
+
+/* Typography */
+
+h1 {
+    font-family: serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #e6b412;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.background p {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e6b412;
+    text-align: center;
+}
+
+
+footer {
+    font-size: .9em;
+    text-align: center;
+    clear: both;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* Layout */
+
+.row {
+    width: 100%;
+}
+
+.row ul {
+    list-style-type: disc;
+    margin-bottom: 3%;
+}
+
+.mission, .vision,
+.beliefs {
+    width: 100%;
+    float: left;
+    display: block;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.left, .middle,
+ .right {
+    width: 30%;
+    height: auto;
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+
+/* Main */
+
+iframe {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    padding-bottom: .5%;
+    clear: both;
+}
+
+.background {
+    width: 100%;
+    height: 50vh;
+    background-color: #7e0c65;
+    background-image: url(../images/background.png);
+    background-size: cover;
+}
+
+/*
+    =======================================
+                Ministries Page
+    =======================================
+*/
+
+/* Layout */
+
+.column {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.column figure {
+    width: 47%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.column img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-family: serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #e6b412;
+    border: 1px solid #060b4e;
+    background-color: #060b4e;
+}
+
+/* Typography */
+
+.intro {
+    font-family: serif;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    width: 100%;
+    margin-left: .5%;
+    text-align: center;
+    color: #060b4e;
+    margin-top: 2%;
+}
+
+/* 
+    ==================================
+                Events Page
+    ==================================
+*/
+
+table {
+    border-collapse: separate;
+    background-color: #e6b412;
+    color: #060b4e;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: block;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-spacing: 4px;
+}
+
+th,
+td {
+    border: 1px solid #060b4e;
+    padding: 1.5%;
+}
+
+.intro {
+    font-family: serif;
+    font-size: 1em;
+    margin-bottom: 2%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    color: #060b4e;
+    margin-top: 2%;
+}
+
+}
+
+@media all and (min-width:900px) {
+/* 
+    ===============================
+            Home Page
+    ===============================
+*/
+
+body {
+    margin: .5%;
+    padding: .5%;
+    font-family: "sans-serif";
+    font-size: 1.1em;
+    height: auto;
+}
+
+/* Header */
+
+header, footer {
+    background-color: #e6b412;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    height: 10%;
+}
+
+.logo {
+    width: 7%;
+    display: inline-flex;
+    margin-top: 1%;
+    margin-left: 1.2%;
+}
+
+
+/* Navigation */
+
+.pages {
+    display: inline-block;
+    width: 88%;
+    vertical-align: top;
+    margin-top: 3%;
+}
+
+nav a {
+    box-sizing: border-box;
+    border: 1px solid #888eee;
+    color: #ffff;
+    background-color: #050727;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    padding: 1%;
+    width: 15%;
+    font-weight: bold;
+}
+
+.active {
+    color: #050727;
+    background-color: #fff;
+}
+
+/* Typography */
+
+h1 {
+    font-family: serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #e6b412;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.background p {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e6b412;
+    text-align: center;
+}
+
+
+footer {
+    font-size: .9em;
+    text-align: center;
+    clear: both;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* Layout */
+
+.row {
+    width: 100%;
+}
+
+.row ul {
+    list-style-type: disc;
+    margin-bottom: 3%;
+}
+
+.mission, .vision,
+.beliefs {
+    width: 25%;
+    float: left;
+    display: inline-block;
+    height: auto;
+    margin-left: 7%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.left, .middle,
+ .right {
+    width: 50%;
+    height: auto;
+    margin-left: 18%;
+    margin-bottom: 2%;
+}
+
+/* Main */
+
+iframe {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    padding-bottom: .5%;
+    clear: both;
+}
+
+.background {
+    width: 100%;
+    height: 60vh;
+    background-color: #7e0c65;
+    background-image: url(../images/background.png);
+    background-size: cover;
+}
+
+
+/*
+    =======================================
+                Ministries Page
+    =======================================
+*/
+
+/* Layout */
+
+.column {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.column figure {
+    width: 47%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.column img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-family: serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e6b412;
+    border: 1px solid #060b4e;
+    background-color: #060b4e;
+}
+
+/* Typography */
+
+.intro {
+    font-family: serif;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    width: 50%;
+    text-align: center;
+    color: #060b4e;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+/* 
+    ==================================
+                Events Page
+    ==================================
+*/
+
+table {
+    border-collapse: separate;
+    background-color: #e6b412;
+    color: #060b4e;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: inline-block;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    border-spacing: 4px;
+}
+
+th,
+td {
+    border: 1px solid #060b4e;
+    padding: 1.5%;
+}
+
+}
+
+
+
+
+
+
+
